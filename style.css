@@ -21,9 +21,16 @@ body{
     background:#202124;
     border: 1px solid gray; 
     width: 582px;
-    height: 46px;
+    height: 0px;
     border-radius: 1000px;
+    padding: 26px 20px;
     margin: 2.5em;
+    color:white;
+    font-size: 16px;
+}
+.searchBox:hover{
+    background:#303134;
+    border: 1px solid transparent;
 }
 
 .btns{
@@ -50,13 +57,19 @@ body{
     font-size: 0.938rem;
     color: #e8eaed;
 }
-
+.darker{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -9;
+}
 .dark{
     background-color:#171717;
     width:100vw;
     height:11vh;
     position: relative;
-    top: 29%;
     display: flex;
     align-items: center;
 }
